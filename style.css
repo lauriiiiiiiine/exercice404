@@ -69,10 +69,11 @@ body{
 }
 
 .fleche a{
+    vertical-align: 14px;
     color:#fff;
     text-transform:uppercase;
     text-decoration: none;
-    padding-left:50px;
+    padding-left:20px;
     line-height: 80px;
     padding-top:20px;
     padding-bottom:20px;
@@ -90,58 +91,24 @@ body{
     padding-bottom: 50px;
 }
 
+.colonne{
+    width:25%;
+    float:left;
+}
 .logo{
-    margin: 0 0 0 25px;
-    list-style-type: none;
-    width: 25%;
-    float: left;
+    margin-top:10px;
+    margin-left:10px;
 }
 
-.infos{
-    margin: 0 0 0 0px;
-    width: 25%;
-    float: left;
+.social{
+    margin-left:0;
+    -webkit-padding-start:0;
 }
 
-.infos ul{
-   list-style-type: none;
-   color: #ffffff;
+.social li{
+    display: inline;
 }
 
-.infos li{
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-
-.infos2 ul{
-    display: inline-block;
-    list-style-type: none;
-   color: #ffffff;
-}
-
-.infos2 li{
-    margin-left: 10px;
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-
-.pictos{
-    display: block;
-    float: right;
-}
-
-.pictos ul li{
-    list-style: none;
-    margin: 0 0 0 10px;
-    float: left;
-}
-
-.pictos ul li img{
-    display: block;
-    width: 40px;
-}
-
-.follow p {
-    float: right;
-    margin: 0 0 0 0px;
+.social li img{
+    width:40px;
 }
